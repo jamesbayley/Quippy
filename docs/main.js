@@ -1,4 +1,4 @@
-const URL = 'http://localhost:5500/docs/quotes.json';
+const URL = 'https://jamesbayley.github.io/quippy/quotes.json';
 
 let res = await fetch(URL);
 let quips = await res.json();
