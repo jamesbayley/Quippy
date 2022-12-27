@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "exclude": ["build", "public"],
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "build",
+    "target": "ES2022",
+    "module": "ES2022",
+    "removeComments": true
+  }
+}

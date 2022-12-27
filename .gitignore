@@ -1,0 +1,5 @@
+node_modules/
+build/
+**/*.js
+.DS_Store
+!rollup.config.js
