@@ -1,7 +1,8 @@
 type Quote = [string, string];
 
 void (async function main() {
-  const URL = "https://jamesbayley.github.io/quippy/quotes.json";
+  const host = document.location.origin;
+  const URL = `${host}/quotes.json`;
 
   const res = await fetch(URL);
   const quips: Quote[] = await res.json();
