@@ -26,16 +26,36 @@ footer {
 header {
   top: 0;
   height: 3rem;
-  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  padding-inline: 3rem;
+  background-color: antiquewhite;
+}
+
+header > h1 { 
+  margin-block: 0;
+  padding-inline: 1rem;
+  font-size: 2rem;
   line-height: 3rem;
+  font-family: 'Lobster Two', cursive;
+  text-align: left;
+  color: #333;
 }
 
 footer {
   bottom: 0;
-  height: 2rem;
+  height: 3rem;
   font-size: 0.7rem;
   text-align: center;
   line-height: 2rem;
+}
+
+footer > h1 {
+  margin-block: 0;
+  font-size: 1.5rem;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  color: #333;
 }
 
 #container {
@@ -44,7 +64,7 @@ footer {
   transition: opacity 2s;
 }
 
-h1 {
+#container > h1 {
   font-size: 1.8rem;
   line-height: 2.6rem;
   text-align: justify;
