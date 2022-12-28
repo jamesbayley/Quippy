@@ -22,6 +22,25 @@ interface Quote {
 }
 
 void (async function main() {
+  // iOS Safari's toolbar affects the viewport dimensions for the
+  // screen: 100vh is initially set assuming that the toolbar is
+  // hidden. However, if the toolbar is displayed then the <main>
+  // content of the window is larger than the available viewport.
+  // This negatively impacts the layout and visibility of elements.
+  // Accordingly, the height of the <main> element must be recalculated
+  // immediately on page load and then again everytime that vh changes.
+  function setMainElementHeight(): void {
+    const main = document.querySelector("main") as HTMLElement;
+    const header = document.querySelector("header");
+    const footer = document.querySelector("footer");
+    const headerHeight = header?.getBoundingClientRect().height ?? 0;
+    const footerHeight = footer?.getBoundingClientRect().height ?? 0;
+    main.style.height = `${window.innerHeight - headerHeight - footerHeight}px`;
+  }
+
+  window.addEventListener("load", setMainElementHeight);
+  window.addEventListener("resize", setMainElementHeight);
+
   const host = document.location.origin;
   const URL = `${host}/quotes.json`;
 
@@ -31,9 +50,10 @@ void (async function main() {
   const index = Math.floor(Math.random() * (quipCount + 1));
   const { author, quote } = quips[index];
 
-  const container = document.querySelector("#container") as HTMLElement;
-  const h1 = document.querySelector("h1") as HTMLElement;
-  const h2 = document.querySelector("h2") as HTMLElement;
+  const container = document.querySelector("#quote") as HTMLElement;
+  const h1 = document.createElement("h1");
+  const h2 = document.createElement("h2");
+  container.append(h1, h2);
 
   h1.innerText = quote;
   h2.innerText = `- ${author}`;
