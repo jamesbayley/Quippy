@@ -5,7 +5,7 @@
     "strict": true,
     "outDir": "build",
     "target": "ES2022",
-    "module": "ES2022",
+    "module": "None",
     "removeComments": true
   }
 }
