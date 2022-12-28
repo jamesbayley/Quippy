@@ -3,9 +3,9 @@
   "exclude": ["build", "public"],
   "compilerOptions": {
     "strict": true,
-    "outDir": "build",
     "target": "ES2022",
-    "module": "ES2022",
+    "module": "None",
+    "outFile": "public/quippy.js",
     "removeComments": true
   }
 }
