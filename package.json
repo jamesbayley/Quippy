@@ -7,7 +7,8 @@
   "browser": "quippy.js",
   "type": "module",
   "scripts": {
-    "build": "node_modules/.bin/tsc"
+    "build": "node_modules/.bin/tsc",
+    "watch": "node_modules/.bin/tsc --watch"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.41.0",
