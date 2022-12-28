@@ -1,5 +1,10 @@
+# Apple.
+.DS_Store
+
+# Node.js.
 node_modules/
 build/
+
+# JavaScript.
 **/*.js
-.DS_Store
 !rollup.config.js
