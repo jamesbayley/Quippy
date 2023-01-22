@@ -1,49 +1,10 @@
 {
   "name": "Quippy",
   "remoteUser": "root",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
   "runArgs": ["--name", "quippy"],
-  "postCreateCommand": "npm install && pip install --user -r requirements.txt",
-  "settings": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.organizeImports": true
-    },
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "eslint.enable": true,
-    "eslint.run": "onSave",
-    "eslint.codeActionsOnSave.mode": "all",
-    "eslint.format.enable": false,
-    "eslint.alwaysShowStatus": true,
-    "liveServer.settings.port": 8080,
-    "liveServer.settings.root": "/public",
-    "python.defaultInterpreterPath": "/usr/local/bin/python",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
-    "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
-    "python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
-    "python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
-    "python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
-    "python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
-    "python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
-    "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-    "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true,
-      "**/__pycache__": true
-    }
-  },
+  "postCreateCommand": "npm install",
   "extensions": [
-    "ms-python.python",
-    "ms-python.vscode-pylance",
     "ritwickdey.liveserver",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
@@ -51,10 +12,34 @@
   "features": {
     "ghcr.io/devcontainers/features/git": {
       "version": "latest"
-    },
-    "ghcr.io/devcontainers/features/python": {
-      "version": "latest"
     }
   },
-  "forwardPorts": [8080]
+  "forwardPorts": [8080],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+
+    "eslint.enable": true,
+    "eslint.run": "onSave",
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+
+    "liveServer.settings.port": 8080,
+    "liveServer.settings.root": "/public"
+  }
 }

@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poiret+One&display=swap");
 
-/* Colour theme. */
-
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: var(--primary-color);
@@ -16,8 +14,6 @@
   }
 }
 
-/* CSS resets. */
-
 * {
   margin: 0;
   padding: 0;
@@ -25,13 +21,9 @@
   position: relative;
 }
 
-/* Default font size for REM dimensions. */
-
 :root {
   font-size: 16px;
 }
-
-/* Custom property declarations. */
 
 :root {
   --primary-color: antiquewhite;
@@ -41,8 +33,6 @@
   --quote-font-size: min(6vw, 1.8rem);
   --author-font-size: min(4vw, 1.2rem);
 }
-
-/* Core styles. */
 
 body {
   width: 100vw;
