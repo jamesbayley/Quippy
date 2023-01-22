@@ -298,5 +298,95 @@
     "quote": "Daring ideas are like chessmen moved forward: they may be beaten, but they may start a winning game.",
     "source": "http://www.ideachampions.com/weblogs/archives/2010/11/50_very_awesome.shtml",
     "tags": []
+  },
+  {
+    "author": "Martin Fowler",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "source": "https://www.goodreads.com/quotes/6341736-any-fool-can-write-code-that-a-computer-can-understand",
+    "tags": []
+  },
+  {
+    "author": "John Johnson",
+    "quote": "First, solve the problem. Then, write the code.",
+    "source": "https://www.defprogramming.com/quotes-by/john-johnson/",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Oscar Wilde",
+    "quote": "Experience is the name everyone gives to their mistakes.",
+    "source": "https://philosiblog.com/2012/03/13/experience-is-the-name-everyone-gives-to-their-mistakes/",
+    "tags": []
+  },
+  {
+    "author": "Coco Chanel",
+    "quote": "In order to be irreplaceable, one must always be different.",
+    "source": "https://www.brainyquote.com/quotes/coco_chanel_382612",
+    "tags": []
+  },
+  {
+    "author": "Chris Heilmann",
+    "quote": "Java is to JavaScript what car is to Carpet.",
+    "source": "Twitter",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Francis Bacon",
+    "quote": "Knowledge is power.",
+    "source": "https://thehabit.co/knowledge-is-power-france-is-bacon/",
+    "tags": []
+  },
+  {
+    "author": "Dan Salomon",
+    "quote": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.",
+    "source": "https://www.goodreads.com/author/quotes/7751308.Dan_Salomon",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Antoine de Saint-Exupery",
+    "quote": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+    "source": "https://www.brainyquote.com/quotes/antoine_de_saintexupery_103610",
+    "tags": []
+  },
+  {
+    "author": "Cory House",
+    "quote": "Code is like humor. When you have to explain it, it’s bad.",
+    "source": "Twitter",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Steve Maguire",
+    "quote": "Fix the cause, not the symptom.",
+    "source": "https://softwarequotes.com/quote/fix-the-cause--not-the-symptom---",
+    "tags": []
+  },
+  {
+    "author": "Kent Beck",
+    "quote": "Optimism is an occupational hazard of programming: feedback is the treatment.",
+    "source": "",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Martin Fowler",
+    "quote": "When to use iterative development? You should use iterative development only on projects that you want to succeed.",
+    "source": "https://quotefancy.com/quote/1630654/Martin-Fowler-When-to-use-iterative-development-You-should-use-iterative-development-only",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Austin Freeman",
+    "quote": "Simplicity is the soul of efficiency.",
+    "source": "https://codeorum.com/relaxzone/quotes/8D666C1D6544595",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Ralph Johnson",
+    "quote": "Before software can be reusable it first has to be usable.",
+    "source": "https://softwarequotes.com/author/ralph-johnson",
+    "tags": ["programming"]
+  },
+  {
+    "author": "Kent Beck",
+    "quote": "Make it work, make it right, make it fast.",
+    "source": "https://thetombomb.com/posts/make-it-work-right-fast",
+    "tags": ["programming"]
   }
 ]
