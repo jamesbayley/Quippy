@@ -1,45 +1,18 @@
 {
   "name": "Quippy",
-  "remoteUser": "root",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
   "runArgs": ["--name", "quippy"],
-  "postCreateCommand": "npm install",
-  "extensions": [
-    "ritwickdey.liveserver",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
-  ],
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.liveserver" 
+      ]
+    }
+  },
   "features": {
     "ghcr.io/devcontainers/features/git": {
       "version": "latest"
     }
-  },
-  "forwardPorts": [8080],
-  "settings": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.organizeImports": true
-    },
-
-    "eslint.enable": true,
-    "eslint.run": "onSave",
-    "eslint.codeActionsOnSave.mode": "all",
-    "eslint.format.enable": false,
-    "eslint.alwaysShowStatus": true,
-
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true
-    },
-
-    "liveServer.settings.port": 8080,
-    "liveServer.settings.root": "/public"
   }
 }
