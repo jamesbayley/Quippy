@@ -26,7 +26,7 @@
 }
 
 :root {
-  --primary-color: antiquewhite;
+  --primary-color: #faebd7;
   --header-height: 0rem;
   --footer-height: 4rem;
   --main-height: calc(100vh - var(--header-height) - var(--footer-height));
