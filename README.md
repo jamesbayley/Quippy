@@ -1,10 +1,9 @@
 <div align="center">
   <img 
-    src="./.github/assets/quippy.svg"
+    src="./.github/assets/quippy-512x512.png"
     alt="Quippy logo consisting of a pale yellow box with a large letter Q." 
     width="175px"
     height="175px"
-    style="border-radius: 12.5px;"
   />
   <h1>Quippy</h1>  
   <p>Reflective Quips & Quotes</p>
