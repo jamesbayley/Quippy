@@ -1,4 +1,4 @@
-name: Publish to Production
+name: Production
 
 on:
   push:
