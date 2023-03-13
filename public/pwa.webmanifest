@@ -1,0 +1,25 @@
+{
+  "name": "Quippy",
+  "short_name": "Quippy",
+  "description": "Reflective Quips & Quotes.",
+  "icons": [
+    {
+      "src": "/assets/icons/quippy.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/icons/quippy-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "English",
+  "background_color": "#FAEBD7",
+  "theme_color": "#FAEBD7"
+}
