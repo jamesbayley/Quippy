@@ -1,6 +1,18 @@
-# Quippy
+<div align="center">
+  <img 
+    src="./.github/assets/quippy.svg"
+    alt="Quippy logo consisting of a pale yellow box with a large letter Q." 
+    width="175px"
+    height="175px"
+    style="border-radius: 12.5px;"
+  />
+  <h1>Quippy</h1>  
+  <p>Reflective Quips & Quotes</p>
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+  [![Production](https://github.com/jamesbayley/Quippy/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/Quippy/actions/workflows/publish.yml)
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+
+</div>
 
 ## Why?
 

@@ -11,7 +11,7 @@ jobs:
     runs-on: Ubuntu-Latest
     environment:
       name: Production
-      url: https://quippy.ink
+      url: https://www.quippy.ink
 
     steps:
       - name: Checkout Repository
