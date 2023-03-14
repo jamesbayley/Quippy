@@ -13,8 +13,8 @@
 
 </div>
 
-<div align="center">
-  </h2>Why?</h2>
+<div align="justify">
+  <h2>Why?</h2>
   <p>
     2022 has been a struggle. This project is a reaction to that.
   </p>
